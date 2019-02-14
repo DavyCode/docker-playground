@@ -1,5 +1,5 @@
 {
-  "name": "simpleweb",
+  "name": "visit",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -7,9 +7,7 @@
     "start": "node app.js"
   },
   "dependencies":{
-    "express": "*"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "express": "*",
+    "redis": "^2.8.0"
+  }
 }
